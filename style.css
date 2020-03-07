@@ -1,0 +1,51 @@
+.btn:focus,
+input:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 600;
+    color: #ccc;
+}
+.container{
+display: flex;
+width: 100%;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+.container-inner{
+background: #fff;
+height: 400px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.11);
+padding: 20px 20px;
+border-radius: 5px;
+text-align: center;
+
+}
+.container-inner input{
+border: none;
+width: 100%;
+padding:0px 10px;
+background: #f3f3f3;
+height: 35px;
+margin-bottom: 30px;
+border-radius: 2px;
+box-sizing: border-box;
+}
+.btn{
+    border: none;
+    padding:7px 15px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    cursor: pointer;
+    background: #0135eb;
+    color: #fff;
+
+}
+.rsetBtn{
+    background: #e82954!important;
+}
